@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', saens-serif;
+}
+
+li:hover {
+    color: #d21617;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+.fotos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.fotos-content {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.foto {
+    width: 470px;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+}
+
+.foto:hover {
+    transform: scale(1.02);
+}
+
+.bat-1 {
+    background-image: url(https://br.web.img3.acsta.net/r_1920_1080/pictures/22/02/16/11/13/1962659.jpg);
+}
+
+.bat-2 {
+    background-image: url(https://br.web.img3.acsta.net/r_1920_1080/pictures/22/02/16/11/13/1947058.jpg);
+}
+
+.bat-3 {
+    background-image: url(https://br.web.img2.acsta.net/r_1920_1080/pictures/22/02/16/11/13/1933017.jpg);
+}
+
+.bat-4 {
+    background-image: url(https://br.web.img3.acsta.net/r_1920_1080/pictures/22/02/16/11/13/1918976.jpg);
+}
+
+.bat-5 {
+    background-image: url(https://br.web.img3.acsta.net/r_1920_1080/pictures/22/02/16/11/13/1858132.jpg);
+}
+
+.bat-6 {
+    background-image: url(https://br.web.img3.acsta.net/r_1920_1080/pictures/22/02/16/11/09/1897155.jpg);
+}
+
+.bat-7 {
+    background-image: url(https://br.web.img2.acsta.net/r_1920_1080/pictures/22/02/16/11/09/1869073.jpg);
+}
+
+.bat-8 {
+    background-image: url(https://br.web.img3.acsta.net/r_1920_1080/pictures/22/01/11/11/02/5093662.jpg);
+}
+
+.bat-9 {
+    background-image: url(https://br.web.img3.acsta.net/r_1920_1080/pictures/22/01/11/11/02/5076502.jpg);
+}
+
+.bat-10 {
+    background-image: url(https://br.web.img3.acsta.net/r_1920_1080/pictures/22/01/11/11/02/5045302.jpg);
+}
+
+.bat-11 {
+    background-image: url(https://br.web.img3.acsta.net/r_1920_1080/pictures/22/01/11/11/02/5029702.jpg);
+}
+
+.bat-12 {
+    background-image: url(https://br.web.img3.acsta.net/r_1920_1080/pictures/22/01/03/08/12/1021274.jpg);
+}
+
+.bat-13 {
+    background-image: url(https://br.web.img3.acsta.net/r_1920_1080/pictures/22/01/11/11/02/5012542.jpg);
+}
+
+.bat-14 {
+    background-image: url(https://br.web.img3.acsta.net/r_1920_1080/pictures/21/10/18/11/17/2451714.jpg);
+}
+
+.bat-15 {
+    background-image: url(https://br.web.img3.acsta.net/r_1920_1080/pictures/20/08/24/15/58/5584219.jpg);
+}
+
+footer {
+    height: 300px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', saens-serif;
+}
+
+.footer-navigation {
+    display: none   ;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+
+    nav {
+        display: none;
+    }
+
+    footer {
+        height: 300px;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    span {
+        color: #fff;
+        font-family: 'Kdam Thmor Pro', saens-serif;
+    }
+
+    .fotos-content {
+        justify-content: center;
+        grid-template-columns: 1fr;
+        margin-right: 5px;
+    }
+}

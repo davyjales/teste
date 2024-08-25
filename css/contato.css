@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', saens-serif;
+}
+
+li:hover {
+    color: #d21617;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#banner {
+    background-image: url('https://images7.alphacoders.com/120/1207353.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.contato {
+    height: 500px;
+    width: 100%;
+    margin-top: 0,5px;
+    border-top: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#formulario {
+    height: auto;
+    width: 40%;
+    padding-left: 2px;
+    color: #ffffff;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 20px;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+h1 {
+    background-color: black;
+}
+
+label {
+    cursor: default;
+    padding-left: 1%;
+    background-color: black;
+    color: #fff;
+}
+
+input {
+    width: 600px;
+    height: 40px;
+    padding-left: 1%;
+    color: black;
+    background-color: #fff;
+    font: bold;
+    font-size: 19px;
+}
+
+#button {
+    width: 200px;
+    height: 40px;
+    background-color: #ffffff;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+#button:hover {
+    background-color:#d21617;
+    color: aliceblue;
+}
+
+#mensage {
+    width: 600px;
+    height: 400px;
+    padding-left: 1%;
+    color: black;
+    background-color: #fff;
+    font: bold;
+    font-size: 19px;
+}
+
+footer {
+    height: 300px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', saens-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+    .footer-navigation  {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #banner {
+        background-image: url(https://images7.alphacoders.com/120/1207353.jpg);
+        background-position: 10%;
+    }
+
+    .contato {
+    height: 500px;
+    width: 50%;
+    margin-top: 0,5px;
+    border-top: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+    #formulario {
+    height: auto;
+    width: 40%;
+    padding-left: 2px;
+    color: #ffffff;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 20px;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+    h1 {
+    background-color: black;
+    font-size: 30px;
+}
+
+    label {
+    cursor: default;
+    padding-left: 1%;
+    background-color: black;
+    color: #fff;
+}
+
+    input {
+    width: 300px;
+    height: 40px;
+    padding-left: 1%;
+    color: black;
+    background-color: #fff;
+    font: bold;
+    font-size: 19px;
+}
+
+    #button {
+    width: 100px;
+    height: 40px;
+    background-color: #d21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    margin-left: 120%;
+    outline: none;
+    margin-top: 25px;
+}
+
+    #button:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+    #mensage {
+    width: 300px;
+    height: 400px;
+    padding-left: 1%;
+    color: black;
+    background-color: #fff;
+    font: bold;
+    font-size: 19px;
+}
+
+    footer {
+    height: 300px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+    span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', saens-serif;
+}
+
+}
